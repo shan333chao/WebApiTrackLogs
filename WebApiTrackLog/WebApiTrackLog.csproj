@@ -222,6 +222,7 @@
     <Compile Include="Areas\HelpPage\SampleGeneration\TextSample.cs" />
     <Compile Include="Areas\HelpPage\XmlDocumentationProvider.cs" />
     <Compile Include="Areas\ShowDemo\Controllers\TestApiLogController.cs" />
+    <Compile Include="Areas\ShowDemo\Controllers\UserManagerController.cs" />
     <Compile Include="Areas\ShowDemo\Models\UserInfo.cs" />
     <Compile Include="Areas\ShowDemo\ShowDemoAreaRegistration.cs" />
     <Compile Include="Controllers\AccountController.cs" />
@@ -244,6 +245,7 @@
     <Compile Include="Models\TrackLogEntities.cs" />
     <Compile Include="Models\UserInfo.cs" />
     <Compile Include="Models\WepApiActionLog.cs" />
+    <Compile Include="MvcAttributes\MvcCrosAttribute.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Providers\ApplicationOAuthProvider.cs" />
     <Compile Include="Results\ChallengeResult.cs" />

@@ -3,21 +3,24 @@ using System.Web.Http;
 using System.Web.Mvc;
 using WebApiTrackLog.Areas.HelpPage.ModelDescriptions;
 using WebApiTrackLog.Areas.HelpPage.Models;
+using WebApiTrackLog.WebApiAttributes;
 
 namespace WebApiTrackLog.Areas.HelpPage.Controllers
 {
     /// <summary>
     /// The controller that will handle requests for the help page.
+    /// The Controller is not in my filter list
     /// </summary>
+  
     public class HelpController : Controller
     {
         private const string ErrorViewName = "Error";
-
+        
         public HelpController()
             : this(GlobalConfiguration.Configuration)
         {
         }
-
+ 
         public HelpController(HttpConfiguration config)
         {
             Configuration = config;
